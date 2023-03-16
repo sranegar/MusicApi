@@ -52,8 +52,8 @@ return function (App $app) {
         $group->post('', 'User:create');
         $group->put('/{id}', 'User:update');
         $group->delete('/{id}', 'User:delete');
-        $group->post('/authBearer', 'User:authBearer');
-        $group->post('/authJWT', 'User:authJWT');
+        // $group->post('/authBearer', 'User:authBearer');
+        // $group->post('/authJWT', 'User:authJWT');
     });
 
     //Route group for api/v1 pattern
